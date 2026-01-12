@@ -296,8 +296,6 @@ body {
   flex: 1;
 }
 
-
-
 /* ===================== CONTACT SOCIAL LINKS - PREMIUM ===================== */
 .contact-social {
   display: flex;
@@ -357,7 +355,6 @@ body {
   }
   
 }
-
 
 /* Labels */
 form label {
@@ -568,12 +565,6 @@ form textarea {
   }
 }
 
-
-
-
-
-
-
 /* -------------------RESPONSIVE------------------- */
 
 /* Small tablets and large phones */
@@ -655,14 +646,6 @@ form textarea {
   }
 }
 
-
-
-
-
-
-
-
-
 /* ---------------------------ABOUT-------------------------------- */
 /* About Section Center */
 .about-section {
@@ -717,8 +700,6 @@ form textarea {
   100% { transform: translateY(0) rotate(-3deg); }
 }
 
-
-
 /* Text */
 .about-text {
   flex: 1;
@@ -732,11 +713,7 @@ form textarea {
   padding-left: 18px;
 }
 
-
-
 /* -----------------------------------CHATBOT------------------------------------------------ */
-
-
 /* Glass/frosted chat style */
 .bp-webchat {
   backdrop-filter: blur(10px);
