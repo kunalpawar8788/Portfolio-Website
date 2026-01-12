@@ -296,6 +296,115 @@ body {
   flex: 1;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ===================== CONTACT SOCIAL LINKS - PREMIUM ===================== */
+.contact-social {
+  display: flex;
+  gap: 20px;
+  justify-content: center; /* center on both desktop & mobile */
+  margin: 30px 0;
+  flex-wrap: wrap;
+}
+
+.contact-social a {
+  width: 55px;
+  height: 55px;
+  background: rgba(255, 255, 255, 0.1); /* glass effect */
+  backdrop-filter: blur(10px);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 26px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease, background 0.4s ease;
+  position: relative;
+}
+
+/* Neon Glow Hover */
+.contact-social a:hover {
+  transform: translateY(-6px) scale(1.0) rotate(-5deg);
+  background: linear-gradient(135deg, #0d0b31);
+  box-shadow: 0 0 20px rgba(133, 132, 132, 0.6), 0 8px 25px rgba(0,0,0,0.3);
+  color: #ffffff;
+}
+
+/* Floating animation (continuous subtle float) */
+
+
+@keyframes floatIcon {
+  0% { transform: translateY(0) rotate(0deg); }
+  50% { transform: translateY(-6px) rotate(3deg); }
+  100% { transform: translateY(0) rotate(-3deg); }
+}
+
+
+
+/* ------------------ Responsive ------------------ */
+@media (max-width: 991px) {
+  .contact-social {
+    margin: 25px 0;
+    gap: 18px;
+  }
+
+  .contact-social a {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Labels */
 form label {
   font-size: 14px;
