@@ -71,13 +71,13 @@ function Contact() {
             <a href="https://linkedin.com/in/kunal-pawar-309431311" target="_blank" rel="noreferrer">
               <FaLinkedin />
             </a>
-            <a href="https://github.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://github.com/kunalpawar8788" target="_blank" rel="noreferrer">
               <FaGithub />
             </a>
-            <a href="https://twitter.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://x.com/kunalpawar8805" target="_blank" rel="noreferrer">
               <FaTwitter />
             </a>
-            <a href="https://instagram.com/yourusername" target="_blank" rel="noreferrer">
+            <a href="https://www.instagram.com/kunaal_pawaar" target="_blank" rel="noreferrer">
               <FaInstagram />
             </a>
           </div>
