@@ -63,7 +63,7 @@ function Contact() {
           <h1 className="sub-title">Contact Me</h1>
           <p><i className="fas fa-paper-plane"></i> kunalpawar8805@gmail.com</p>
           <p><i className="fas fa-phone-square-alt"></i> +91 8788272946</p>
-          <a href="/images/portResume.pdf" download className="btn btn2">Download CV</a>
+          <a href="/images/MERN_Stack_Developer.pdf" download className="btn btn2">Download CV</a>
         </div>
 
         {/* Right Section */}
@@ -90,103 +90,3 @@ function Contact() {
 }
 
 export default Contact;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// function Contact() {
-//   const [showPopup, setShowPopup] = useState(false);
-
-//   const handleSubmit = (e) => {
-//     e.preventDefault();
-//     const form = e.target;
-
-//     // Check all required fields
-//     const allFilled = [...form.elements].every(
-//       (el) =>
-//         (el.tagName === "INPUT" || el.tagName === "TEXTAREA") &&
-//         el.hasAttribute("required")
-//         ? el.value.trim() !== ""
-//         : true
-//     );
-
-//     if (allFilled) {
-//       setShowPopup(true);   // show popup
-//       form.reset();         // reset form
-//       setTimeout(() => setShowPopup(false), 3000); // hide popup after 3s
-//     } else {
-//       alert("Please fill all fields!");
-//     }
-//   };
-
-//   return (
-//     <div className="container" id="contact">
-//       <div className="row">
-
-//         {/* Left Section */}
-//         <div className="contact-left">
-//           <h1 className="sub-title">Contact Me</h1>
-//           <p>
-//             <i className="fas fa-paper-plane"></i> kunalpawar8805@gmail.com
-//           </p>
-//           <p>
-//             <i className="fas fa-phone-square-alt"></i> +91 8788272946
-//           </p>
-//           <a href="/images/portResume.pdf" download className="btn btn2">
-//             Download CV
-//           </a>
-//         </div>
-
-//         {/* Right Section */}
-//         <div className="contact-right">
-//           <form onSubmit={handleSubmit}>
-//             <input type="text" placeholder="Your Name" required />
-//             <input type="text" placeholder="Mobile No" required />
-//             <input type="email" placeholder="Your Email" required />
-//             <textarea rows="6" placeholder="Your Message" required></textarea>
-
-//             <button type="submit" className="btn btn2">
-//               Submit
-//             </button>
-//           </form>
-//         </div>
-
-//       </div>
-
-//       {/* Thank You Popup */}
-//       {showPopup && (
-//         <div className="glass-popup">
-//           <h2>Thank You!</h2>
-//           <p>Your message has been sent successfully.</p>
-//         </div>
-//       )}
-//     </div>
-//   );
-// }
-
-// export default Contact;

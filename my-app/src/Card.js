@@ -7,7 +7,7 @@ function Card() {
       title: "Portfolio Website",
       description: "Built using ReactJS",
       image: "/images/project1.png",
-      link: "",
+      link: "https://github.com/kunalpawar8788/Portfolio-Website",
     },
     {
       title: "Student Result Management System ",
