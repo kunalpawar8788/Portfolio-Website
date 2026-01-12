@@ -174,7 +174,7 @@ html {
 .cards-section::-webkit-scrollbar-thumb {
   background: #cac9c9;
   border-radius: 3px;
-} 
+} */
 
 .cards-section {
   display: flex;
@@ -410,6 +410,33 @@ form textarea {
 /* If you have cards or about sections */
 .cards-section, .about-container, .contact-container {
   background: transparent;
+}
+/* ------------------ ABOUT SECTION MOBILE ------------------ */
+@media (max-width: 576px) {
+  .about-box {
+    width: 100%;        /* fill mobile screen */
+    padding: 20px;      /* reduce padding */
+  }
+
+  .about-content {
+    flex-direction: column;  /* stack photo and text vertically */
+    align-items: center;     /* center content */
+    gap: 20px;               /* smaller gap for mobile */
+  }
+
+  .about-photo {
+    width: 140px;     /* smaller profile image */
+    height: 140px;
+  }
+
+  .about-text h3 {
+    font-size: 18px;  /* smaller headings */
+    text-align: center;
+  }
+
+  .about-text ul {
+    padding-left: 12px; /* smaller left padding */
+  }
 }
 
 
