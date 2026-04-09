@@ -65,7 +65,7 @@ function Contact() {
           <h1 className="sub-title">Contact Me</h1>
           <p><i className="fas fa-paper-plane"></i> kunalpawar8805@gmail.com</p>
           <p><i className="fas fa-phone-square-alt"></i> +91 8788272946</p>
-          <a href="/images/MERN_Stack_Developer.pdf" download className="btn btn2">Download CV</a>
+          <a href="/images/Kunal_Pawar_ResumeLX.pdf" download className="btn btn2">Download CV</a>
           
           <div className="contact-social">
             <a href="https://linkedin.com/in/kunal-pawar-309431311" target="_blank" rel="noreferrer">
